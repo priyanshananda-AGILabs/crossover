@@ -1,0 +1,28 @@
+Fraction Studio demo walkthrough script (3-5 minutes)
+
+0:00-0:30 | Frame the problem
+This prototype solves a specific intervention problem: high school students need to rebuild fraction comparison, but they carry shame because it is usually taught much earlier. My design goal was to preserve the simplicity of a drill while making the drill teach, protect privacy, and show credible progress.
+
+0:30-1:00 | Start screen
+I intentionally frame this as algebra readiness, not elementary remediation. There are no grade labels, cartoons, or public scores. The start screen says private prerequisite practice because students told us being seen doing kid stuff is a major barrier.
+
+1:00-1:35 | First problem and correct answer
+The student starts immediately. The diagnostic is folded into the drill. Each problem is tagged behind the scenes by comparison type. On a correct answer, feedback is light: it confirms the strategy and keeps the student moving.
+
+1:35-2:25 | Wrong answer and strategy card
+Now I will intentionally answer a same-numerator problem incorrectly. Instead of a red X, the app says, Not yet - here's the move. The feedback is type-specific: same numerator means the number of pieces is the same, but the denominator changes piece size. The visual makes that idea concrete.
+
+2:25-3:05 | Paired retry and adaptation
+The next question is not random. It is a paired retry of the same type so the student can immediately prove the strategy. The side panel updates by skill type, and the adaptive note explains why more same-numerator items are appearing. This is designed for students who distrust fake progress.
+
+3:05-3:45 | Benchmark problem
+Benchmark comparisons use a different model. When the issue is comparing to one-half, a number line is more useful than the same strip visual. The app selects the visual based on the misconception, not a generic help screen.
+
+3:45-4:30 | Summary and recommendation
+The session ends with a private evidence snapshot. Completion rate can remain the portfolio metric, but the learning product should also track accuracy by type, drop-off after wrong answers, and paired-retry success. I recommend shipping this private adaptive practice loop first, before formal diagnostics, timed mastery, or gamification.
+
+Optional opening line for your own voice recording:
+Hi, I am walking through Fraction Studio, an MVP concept for high school students who are behind on fraction comparison. The core design decision is that the experience looks and feels like a private algebra-readiness drill, while the system quietly diagnoses gaps and teaches the right strategy after mistakes.
+
+Optional closing line:
+For the MVP, I would ship the adaptive private practice loop, strategy-specific feedback, paired retry, and private progress evidence. I would not ship leaderboards, public rankings, a timed test, or an elementary reskin until we have evidence that students can engage without shame and show measurable skill growth.
